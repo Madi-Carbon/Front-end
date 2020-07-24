@@ -1,0 +1,601 @@
+/* SINAEA - Factory, Industry, and Manufacturing HTML Template  */
+
+@media only screen and (max-width: 1479px){
+	.main-header .main-box{
+		padding: 10px 30px;
+	}
+
+	.sidenav-bar-visible header,
+	.sidenav-bar-visible main{
+		width: 100%;
+	}
+
+	.sidenav-bar{
+		width: 320px;
+	}
+}
+
+@media only screen and (max-width: 1139px){
+	.about-us .content-column .inner-column{
+		padding-right: 0;
+	}
+
+	.sec-title{
+		padding-top: 30px;
+	}
+
+	.sec-title .float-text{
+		font-size: 150px;
+	}
+
+	.fact-counter .column .inner{
+		padding: 40px 20px;
+	}
+
+	.welcome-section .row,
+	.pricing-section .row{
+		margin: 0 -15px;
+	}
+
+	.welcome-section .column,
+	.pricing-table{
+		padding: 0 15px;
+	}
+	
+	.fun-facts .progress-column .inner-column,
+	.main-footer .footer-column .useful-links,
+	.main-footer .footer-column .recent-posts{
+		padding-left: 0;
+	}
+
+	.scroll-to-top{
+		left: 15px;
+	}
+	
+	.banner-section-three h2{
+		font-size: 48px;
+	}
+
+	.about-section .image-column .inner-column{
+		padding: 70px 0 0;
+	}
+
+	.blog-single, .blog-sidebar,
+	.sidebar-side .services-sidebar,
+	.contact-page-section .form-column .inner-column,
+	.about-me .image-column .image-box{
+		padding-right: 0;
+	}
+
+	.sidebar-side .sidebar.pd-left{
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	.main-header{
+		top: 0;
+	}
+
+	.main-header .main-box{
+		padding: 10px 15px;
+	}
+
+	.banner-section .swiper-slide h2{
+		font-size: 60px;
+	}
+
+	.banner-section-two .slide-item h2,
+	.banner-section .swiper-slide h3{
+		font-size: 40px;
+	}
+
+	.banner-section-three .social-icon-two,
+	.banner-section-two .owl-nav,
+	.banner-slider-arrows{
+		left: 15px;
+		bottom: 15px;
+	}
+
+	.banner-section-two .square-menu,
+	.banner-section .circular-menu{
+		right: 15px;
+		bottom: 15px;
+	}
+
+	.banner-section-two .slide-item .content-box{
+		height: 800px;
+	}
+
+	.subscribe-form{
+		padding: 60px 50px;
+	}
+
+	.banner-section-three .center-stipts,
+	.subscribe-form br{
+		display: none;
+	}
+
+	.banner-section-three .shape-outer,
+	.banner-section-three .inner{
+		width: 75%;
+	}
+
+	.project-block .caption-box{
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: 1;
+    	transform: scale(1);
+    	background-color: #252525;
+	}
+
+	.project-block .caption-box .read-more,
+	.project-block .caption-box .text,
+	.project-block .caption-box h4{
+		opacity: 1;
+	    visibility: visible;
+	    transform: translateY(0);
+	}
+
+	.faq-form-section .image-column,
+	.about-section .image-column .image:before,
+	.call-back-section .image-column{
+		display: none;
+	}
+
+	.service-detail-section .content-side,
+	.about-section .content-column{
+		order: 0;
+	}
+
+	.about-section .image-column .inner-column{
+		padding: 0;
+	}
+
+	.time-counter .time-countdown,
+	.coming-soon .content .content-inner .logo{
+		margin-bottom: 120px;
+	}
+}	
+
+@media only screen and (max-width: 767px){
+	.banner-section .swiper-slide .content .inner{
+		max-width: 400px;
+	}
+
+	.banner-section-two .active .text br,
+	.banner-section .swiper-slide .content .inner br{
+		display: none;
+	}
+
+	.sec-title .float-text{
+		font-size: 120px;
+	}
+
+	.pricing-table{
+		padding: 0 50px;
+	}
+
+	.subscribe-form{
+		text-align: center;
+	}
+
+	.subscribe-form .form-inner{
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.subscribe-form .upper-box{
+		padding-left: 0;
+		border-left: 0;
+	}
+
+	.subscribe-form .envelope-image{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		height: 150px;
+		width: 150px;
+		right: 0;
+		margin: 0 auto 20px;
+	}
+
+	.project-detail,
+	.project-section,
+	.call-back-section,
+	.pricing-section,
+	.about-me,
+	.news-section.alternate,
+	.service-detail-section,
+	.faq-form-section,
+	.features-section,
+	.services-section,
+	.testimonial-section,
+	.fun-facts{
+		padding: 70px 0;
+	}
+	
+	.services-section-two,
+	.about-section,
+	.welcome-section,
+	.faq-section,
+	.sidebar-page-container,
+	.main-footer .widgets-section,
+	.about-us{
+		padding: 70px 0 20px;
+	}
+
+	.team-section,
+	.contact-page-section,
+	.project-section-two{
+		padding: 70px 0 40px;
+	}
+
+	.map-section{
+		padding-bottom: 70px;
+	}
+
+	.video-section .content-box h2,
+	.contact-info-section h2{
+		font-size: 36px;
+		line-height: 1.2em;
+	}
+
+	.contact-info-section h2 br{
+		display: none;
+	}
+
+	.newsletter-section{
+		padding: 0;
+	}
+
+	.welcome-section .sec-title br,
+	.main-footer .footer-bottom .footer-nav{
+		display: none;
+	}
+
+	.main-footer .footer-bottom .copyright-text{
+		width: 100%;
+		text-align: center;
+	}
+
+	.project-block .caption-box{
+		position: relative;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		display: block;
+	}
+
+	.banner-section-three .shape-outer, 
+	.banner-section-three .inner{
+		width: 100%;
+	}
+
+	.about-section .sec-title{
+		margin-bottom: 30px;
+	}
+
+	.page-title{
+		padding: 150px 0 100px;
+	}
+
+	.page-title h2{
+		font-size: 44px;
+		line-height: 1.2em;
+	}
+
+	.project-detail .list-style-two li{
+		width: 100%;
+	}
+
+	.error-section h3{
+		font-size: 50px;
+	}
+
+	.error-section{
+		padding: 150px 0 100px;
+	}
+
+	.login-section{
+		padding: 100px 0 30px;
+	}
+}
+
+@media only screen and (max-width: 599px){
+
+	.banner-section .swiper-slide h2{
+		font-size: 40px;
+		margin-bottom: 15px;
+	}
+
+	.error-section .sec-title h1{
+		font-size: 150px;
+	}
+
+	.error-section h3{
+		font-size: 34px;
+	}
+
+	.project-detail .lower-content h2,
+	.banner-section .swiper-slide h3{
+		font-size: 24px;
+	}
+
+	.banner-section .swiper-slide .text{
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+
+	.banner-section .swiper-slide .btn-box .theme-btn{
+		padding: 10px 30px;
+		line-height: 20px;
+		font-size: 14px;
+	}
+
+	.banner-section .swiper-slide .text br,
+	.banner-section .content .inner:before,
+	.banner-section .content .inner:after,
+	.video-section .content-box h2 br,
+	.about-us .image-column .inner-column:before,
+	.main-header .cart-btn{
+		display: none;
+	}
+
+	.main-header .btn-box,
+	.main-header .search-box{
+		margin-left: 0;
+	}
+
+	.banner-section-two .slide-item h2{
+		font-size: 34px;
+	}
+
+	.about-us .about-years{
+		padding: 0;
+		box-shadow: none;
+		background-color: transparent;
+	}
+
+	.about-us .image-column .image{
+		padding: 0 0 30px;
+	}
+
+	.sec-title{
+		padding-top: 20px;
+	}
+
+	.sec-title .float-text{
+		font-size: 64px;
+	}
+
+	.sec-title h2{
+		font-size: 34px;
+	}
+
+	.subscribe-form{
+		padding: 40px 30px;
+	}
+
+	.subscribe-form .upper-box h4{
+		font-size: 32px;
+	}
+
+	.contact-info-section .number{
+		font-size: 24px;
+	}
+
+	.pricing-table{
+		padding: 0 15px;
+	}
+
+	.testimonial-block .content-box .text{
+		font-size: 16px;
+		line-height: 1.4em;
+	}
+
+	.testimonial-block .info-box{
+		padding: 30px 20px;
+		padding-left: 120px;
+	}
+
+	.testimonial-block .thumb{
+		left: 20px;
+	}
+
+	.subscribe-form .form-group{
+		padding-right: 0;
+	}
+
+	.subscribe-form .form-group input[type="submit"],
+	.subscribe-form .form-group button{
+		position: relative;
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	.banner-section-two .slide-item .content-box{
+		height: 700px;
+	}
+
+	.banner-section-three .content-outer{
+		height: 500px;
+	}
+
+	.banner-section-three h2{
+		font-size: 30px;
+	}
+
+	.service-block-two .text{
+		font-size: 15px;
+	}
+
+	.service-block-two .lower-content{
+		padding: 30px 20px;
+	}
+
+	.video-section .content-box h2,
+	.contact-info-section h2{
+		font-size: 28px;
+	}
+
+	.project-block .caption-box{
+		padding: 30px 25px 30px;
+		text-align: center;
+	}
+
+	.feature-block-two .inner-box .icon{
+		left: 0;
+		top: 0;
+		position: relative;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.feature-block-two .inner-box{
+		padding: 20px 30px;
+		text-align: center;
+	}
+
+	.call-back-section .outer-box{
+		max-width: 100%;
+	}
+
+	.about-section .content-column .message,
+	.testimonial-block-two .inner-box .text{
+		font-size: 18px;
+		line-height: 1.4em;
+	}
+
+	.coming-soon .emailed-form .text br,
+	.sec-title .text br{
+		display: none;
+	}
+
+	.about-section .list-style-two li{
+		width: 100%;
+	}
+
+	.about-me .info-column .text-box{
+		padding: 40px 20px;
+	}
+
+	.time-counter .time-countdown, .coming-soon .content .content-inner .logo {
+	    margin-bottom: 60px;
+	}
+
+	.coming-soon .emailed-form .text{
+		font-size: 24px;
+		line-height: 1.2em;
+	}
+
+	.clock-wrapper{
+		transform: scale(1.2);
+	}
+
+	.project-detail .project-info{
+		padding: 40px 20px 20px;
+	}
+
+	.styled-pagination li{
+		margin: 0 5px;
+	}
+
+	.news-section.alternate .styled-pagination{
+		margin-top: 0;
+	}
+
+	.blog-single blockquote{
+		padding: 20px;
+	}
+
+	.blog-single blockquote cite span{
+		display: block;
+	}
+
+	.comments-area .comment-box .author-thumb{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+	}
+
+	.comments-area .comment-box .reply-btn{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		margin-top: 20px;
+	}
+
+	.comments-area .comment{
+		padding: 20px 20px;
+	}
+
+	.comment-form .form-group{
+		margin-bottom: 20px;
+	}
+
+	.comments-area .comment-box.reply-comment{
+		margin-left: 0;
+	}
+
+	.cart-section .apply-coupon .form-group{
+		margin-right: 0;
+	}
+
+	.shop-comment-form .rating-box .text{
+		width: 100%;
+	}
+
+	.shipping-form button, 
+	.cart-section .coupon-btn, 
+	.cart-section .cart-options > div, 
+	.cart-section .apply-coupon .form-group,
+	.cart-section .cart-options .cart-btn, 
+	.cart-section .totals-table .proceed-btn, 
+	.cart-section .apply-coupon .form-group input[type="text"]{
+	    width: 100%;
+	}
+
+	.payment-box .payment-options li .radio-option .what-paypall{
+		margin-left: 0;
+		width: 100%;
+		text-align: right;
+	}
+
+	.contact-form,
+	.payment-box{
+		padding: 30px 20px;
+	}
+
+	.sec-title,
+	.contact-page-section .sec-title{
+		margin-bottom: 30px;
+	}
+
+	.request-form{
+		padding: 40px 20px;
+	}
+}
+
+@media only screen and (max-width: 479px){
+
+	.blog-single .post-share-options .social-icon-two{
+		margin-top: 10px;
+	}
+
+	.latest-news .post{
+		padding-top: 0;
+	}
+
+	.project-detail blockquote{
+		padding: 20px 20px;
+	}
+}
