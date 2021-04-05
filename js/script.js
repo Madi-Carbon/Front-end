@@ -267,39 +267,6 @@
 		}); 
 	}
 
-	if ($('.projects-slider').length) {
-        var swiper = new Swiper('.projects-slider', {
-            effect: 'coverflow',
-            loop: true,
-            centeredSlides: true,
-            slidesPerView: 2,
-            initialSlide: 3,
-            keyboardControl: true,
-            mousewheelControl: false,
-            lazyLoading: true,
-            preventClicks: false,
-            preventClicksPropagation: false,
-            lazyLoadingInPrevNext: true,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            coverflow: {
-                rotate: 40,
-                stretch: 1,
-                depth: 0,
-                modifier: 1
-            },
-            breakpoints: {
-                1199: {
-                    slidesPerView: 2
-                },
-                991: {
-                    slidesPerView: 1
-                }
-            }
-        });
-
-    }
-
     // Testimonial Carousel 
 	if ($('.testimonial-carousel').length) {
 		$('.testimonial-carousel').owlCarousel({
